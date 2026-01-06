@@ -1,0 +1,32 @@
+import './App.css'
+
+function FormularioDeEvento () {
+  return (
+    <form action="" className='form-evento'>
+
+      <h2>Preencha para criar um evento:</h2>
+      <fieldset>
+        <label htmlFor="nome">
+          Qual o nome do evento?
+        </label>
+        <input type="text" id="nome" />
+      </fieldset>
+    </form>
+  )
+}
+
+function App() {
+  return (
+    <main> 
+      <header>
+          <img src="/logo.png" alt="Logo" />
+      </header>
+      <section>
+          <img src="/banner.png" alt="Banner" />
+      </section>
+    
+    </main>
+  )
+}
+
+export default App
