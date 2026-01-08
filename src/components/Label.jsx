@@ -1,6 +1,8 @@
+import './titulo-formulario.estilos.css'
+
 function Label(props) {
   return (
-    <label htmlFor={props.htmlFor}>
+    <label className='label' htmlFor={props.htmlFor}>
       {props.children}
     </label>
   )

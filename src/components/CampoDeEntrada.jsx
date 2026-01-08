@@ -1,6 +1,8 @@
+import './campo-entrada.estilos.css'
+
 function CampoDeEntrada(props) {
   return (
-    <input {...props}></input>
+    <input  {...props} className='campo-entrada-form'></input>
   )
 }
 
